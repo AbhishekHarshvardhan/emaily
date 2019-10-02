@@ -11,7 +11,7 @@ class Header extends Component {
       case false:
         return (
           <li>
-            <a href='http://localhost:5000/auth/google'>Login With Google</a>
+            <a href='/auth/google'>Login With Google</a>
           </li>
         );
 
@@ -24,7 +24,7 @@ class Header extends Component {
             Credits: {this.props.auth.credits}
           </li>,
           <li key='2'>
-            <a href='http://localhost:5000/api/logout'>Log Out</a>
+            <a href='/api/logout'>Log Out</a>
           </li>
         ];
     }
